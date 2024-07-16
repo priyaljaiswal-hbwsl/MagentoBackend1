@@ -2,8 +2,8 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="pool" frontName="pool">
-            <module name="training_poolpattern"/>
+        <route id="proxy" frontName="proxy">
+            <module name="training_proxyexample"/>
         </route>
     </router>
 </config>

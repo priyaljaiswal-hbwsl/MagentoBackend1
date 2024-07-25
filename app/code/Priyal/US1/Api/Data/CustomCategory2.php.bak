@@ -1,0 +1,23 @@
+<?php
+
+namespace Anup\US1\Api\Data;
+
+use Anup\US1\Api\Data\CustomCategoryInterface;
+
+
+class CustomCategory2 implements CustomCategoryInterface
+{
+    public function __construct() {
+      
+    }
+    // custom category interface
+
+     /**
+
+     *
+     * @return string|null
+     */
+    public function getDescription(){
+        return "This is some description From Custom Category2";
+    }
+}
